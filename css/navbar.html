@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav bar</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+    }
+    header {
+      max-height: 10vh;
+      background-color: lavender;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .logo h3 {
+      padding: 1rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+    }
+    ul li {
+      padding: 1rem;
+    }
+    ul li a {
+      text-decoration: none;
+      color: black;
+      background-color: lavenderblush;
+    }
+    .items ul li a:hover {
+      background-color: lawngreen;
+    }
+    ul li a:focus {
+      background-color: lightblue;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h3>name</h3>
+        </div>
+        <div class="items">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
